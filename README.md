@@ -418,6 +418,7 @@ HF Link: https://huggingface.co/spaces/Navyabhat/Session13
 
 ### Loss & Accuracy
 **Training & Validation Loss:**
+
 ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/284d9650-d3a4-479c-9337-17bc29bc8877)
 
 **Testing Accuracy:**
@@ -511,14 +512,18 @@ Obj accuracy is: 75.976616%
 MAP: 0.43667954206466675
 ```
 ### Tensorboard Plots 
-**Training Loss vs Steps:** ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/d897672a-d022-4620-9edc-80d3f0a8ae2e)
+**Training Loss vs Steps:** 
+
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/d897672a-d022-4620-9edc-80d3f0a8ae2e)
 
 **Validation Loss vs Steps:** 
 (Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
+
 ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/438c01e9-abc3-4bee-b443-195d896651be)
 
 ### GradCAM Representations
 EigenCAM is used to generate CAM representation, since usal gradient based method wont work with detection models like Yolo, FRCNN etc.
+
 ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/e058dd8a-3147-4ab2-bf8c-b1581cc0c4ab)
 
 
