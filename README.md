@@ -40,11 +40,11 @@ HF Link: https://huggingface.co/spaces/RaviNaik/ERA-SESSION13
     - Share notebook link (with logs) on GitHub
   
 ### Results
-![image](https://github.com/RaviNaik/ERA-SESSION13/blob/main/yolo_results.png)
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/blob/main/yolo_results.png)
 
 ### Gradio App
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/95335687-e717-4467-bcb1-227a79dd5c3f)
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/3ab67d32-38e6-436a-86d4-b76b5bd52a77)
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/259d9419-25ac-4ba5-8aa5-da3b64798fb1)
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/c47ff954-af14-465a-b3ff-163f6451bcb9)
 
 ### Model Summary
 ```python
@@ -414,11 +414,11 @@ HF Link: https://huggingface.co/spaces/RaviNaik/ERA-SESSION13
 ```
 
 ### LR Finder
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/a6d64f13-a7b7-4e17-abfc-3ec86e84b710)
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/e59778ac-4daa-4b3f-8755-199b8492c8bc)
 
 ### Loss & Accuracy
 **Training & Validation Loss:**
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/9391157e-a889-480d-b233-b72e86745245)
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/284d9650-d3a4-479c-9337-17bc29bc8877)
 
 **Testing Accuracy:**
 ```python
@@ -511,16 +511,14 @@ Obj accuracy is: 75.976616%
 MAP: 0.43667954206466675
 ```
 ### Tensorboard Plots 
-**Training Loss vs Steps:** ![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/5cb753e0-377b-4d9f-a240-871270ed50db) 
+**Training Loss vs Steps:** ![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/d897672a-d022-4620-9edc-80d3f0a8ae2e)
 
 **Validation Loss vs Steps:** 
 (Info: Validation loss calculated every 10 epochs to save time, thats why the straight line) 
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/7401c0aa-f7ff-4a5b-bab2-dbb5ebe0b400) 
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/438c01e9-abc3-4bee-b443-195d896651be)
 
 ### GradCAM Representations
 EigenCAM is used to generate CAM representation, since usal gradient based method wont work with detection models like Yolo, FRCNN etc.
-![image](https://github.com/RaviNaik/ERA-SESSION13/assets/23289802/3e3917f1-c8d1-4c3f-a028-de1292575e0b)
-
-
+![image](https://github.com/Navyabhat03/ERAV1-Session-13/assets/60884505/e058dd8a-3147-4ab2-bf8c-b1581cc0c4ab)
 
 
